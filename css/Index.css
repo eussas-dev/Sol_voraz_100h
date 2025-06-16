@@ -1,0 +1,118 @@
+img.car {
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+  body {
+    background: #F2EFEA;
+}
+
+
+p.Description {
+    margin-top: 4px;
+    font-weight: 500;
+    color: rgb(0, 0, 0);
+}
+
+p.Valor {
+    margin-top: -12px;
+    color: rgb(0, 0, 0);
+    font-weight: 700;
+}
+
+p.Disponibilidad {
+    margin-top: -14px;
+    color: rgb(0 0 0 / 63%);
+}
+
+
+
+.subtittle {
+    margin-top: 63px;
+    text-align: center;
+    padding-bottom: 41px;
+}
+
+.tittle {
+    text-align: center;
+    padding-top: 52px;
+}
+
+.tittle h1 {
+    font-size: 32px !important;
+    margin-bottom: 30px;
+}
+
+.subtittle h2 {
+    font-size: 20px;
+}
+
+div#carouselExampleCaptions h1 {
+    font-size: 70px;
+    font-weight: 400;
+    letter-spacing: 6px;
+    
+}
+
+.btn-primary{
+    color: #000000;
+    background-color: #ffe16a;
+    border-color: #ffe16a;
+    width: 100%;
+}
+
+.btn-primary:hover{
+    background-color: #efd289;
+    border-color: #efd289;
+}
+
+
+@media (max-width: 1000px) {
+    div#carouselExampleCaptions h1 {
+        font-size: 40px;
+    }
+  }
+
+
+div#carouselExampleCaptions p {
+    font-size: 29px;
+    font-weight: 200;
+}
+
+@media (max-width: 1000px) {
+    div#carouselExampleCaptions p {
+        font-size: 19px;
+    }
+  }
+
+.carousel-control-prev-icon, .carousel-control-next-icon {
+    background-color: black;  /* Cambiar el color de las flechas */
+    border-radius: 50%;  /* Redondear el fondo de la flecha */
+  }
+
+
+  .carousel-control-prev, .carousel-control-next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 10;
+  }  
+
+div#principal_F4 {
+    margin-top: calc(50vh - 326px);
+}
+
+@media (max-width: 768px) {
+    div#principal_F4 {
+      margin-top: 20px;
+      margin-bottom: 20px;
+    }
+  }
+
+
+
+
+
+
+
+

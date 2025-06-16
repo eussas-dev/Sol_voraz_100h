@@ -1,0 +1,538 @@
+<!doctype html>
+<html lang="es">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+    integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+  <link rel="stylesheet" href="./css/Styles.css">
+  <link rel="stylesheet" href="./css/Index.css">
+  <title>Homework 2</title>
+</head>
+
+<body>
+
+
+  <!-- Barra de navegación  -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="./Index.html">
+      <img src="./assets/0_logo.png" class="Logo" style="width: 30px; height: 30px;">
+    </a>
+
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="./Index.html">Sol Voraz <span class="sr-only">(current)</span></a>
+        </li>
+
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" id="navbarDropdown" role="button" data-toggle="dropdown">
+            Plantas
+          </a>
+          <div class="dropdown-menu">
+            <a class="dropdown-item" href="./P_nephentes.html">Nepenthes</a>
+            <a class="dropdown-item" href="./P_venus.html">Venus</a>
+          </div>
+        </li>
+
+        <li class="nav-item active">
+          <a class="nav-link" href="./Pro_Insumos.html">Insumos</a>
+        </li>
+      </ul>
+
+      <div class="ml-auto d-flex align-items-center">
+        <a href="https://www.instagram.com" target="_blank" class="nav-link">
+          <img src="./assets/instagram.png" alt="Instagram" style="width: 24px; height: 24px;">
+        </a>
+        <a href="https://www.whatsapp.com" target="_blank" class="nav-link">
+          <img src="./assets/whatsapp.png" alt="whatsapp" style="width: 24px; height: 24px;">
+        </a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- boton carrito  -->
+
+  <button id="cartButton" class="btn btn-primary">
+    <img src="./assets/carrito-de-compras.png" alt="Carrito" class="cart-icon">
+  </button>
+
+
+  <!-- Caroussel -->
+  <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+    <ol class="carousel-indicators">
+      <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+      <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+      <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+    </ol>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="./assets/car_a.jpg" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h1>Bienvenido a Sol Voraz</h1>
+          <p>Un toque salvaje para tus espacios con las plantas más fascinantes</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="./assets/car_b.jpg" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h1>Bienvenido a Sol Voraz</h1>
+          <p>La belleza de lo voraz, la elegancia de lo natural...</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="./assets/car_c.jpg" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h1>Bienvenido a Sol Voraz</h1>
+          <p>La naturaleza más intrigante, directamente a tu hogar</p>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-target="#carouselExampleCaptions" data-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-target="#carouselExampleCaptions" data-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </button>
+  </div>
+
+  <div class="container" id="somos"> <!-- FILA 2  -->
+
+    <div class="tittle">
+      <h1>Sol Voraz: tu tienda especializada en plantas carnívoras a domicilio en Colombia</h1>
+    </div>
+
+    <div class="subtittle">
+      <h2>En Sol Voraz encontrarás una cuidada selección de plantas carnívoras, macetas, sustratos especiales,
+        fertilizantes y accesorios ideales para su cultivo. Hacemos envíos a domicilio en Bogotá, Medellín, Cali,
+        Bucaramanga, Barranquilla y muchas otras ciudades de Colombia. Compra en línea y recibe en menos de 5 días
+        productos de alta calidad para crear tu propio ecosistema natural en casa. Cultiva lo extraordinario y dale un
+        toque salvaje a tu jardín, balcón o espacio interior.
+      </h2>
+    </div>
+  </div>
+
+  <!-- FILA 3  -->
+  <div class="container" id="productosVarios">
+
+    <div class="tittle">
+      <h1>Algunas de nuestras categorias</h1>
+    </div>
+
+    <div class="row">
+      <div class="col-6 col-sm-6 col-md-4  micarta">
+        <img src="./assets/0_plants.jpg" class="img_Product_1" width="100%">
+        <p class="Description">Nephentes Linda</p>
+        <p class="Valor">$15.000</p>
+        <p class="Disponibilidad">15 Unidades Disponibles</p>
+      </div>
+      <div class="col-6 col-sm-6 col-md-4  micarta">
+        <img src="./assets/0_plants.jpg" class="img_Product_1" width="100%">
+        <p>porro labore delectus eaque eum inventore autem ad hic necessitatibus ipsam, quibusdam, corrupti iusto.
+          Temporibus sapiente ipsum praesentium.</p>
+      </div>
+      <div class="col-6 col-sm-6 col-md-4  micarta">
+        <img src="./assets/0_plants.jpg" class="img_Product_1" width="100%">
+        <p>porro labore delectus eaque eum inventore autem ad hic necessitatibus ipsam, quibusdam, corrupti iusto.
+          Temporibus sapiente ipsum praesentium.</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- FILA 4 -->
+  <div class="container">
+
+    <div class="tittle">
+      <h1>Productos de la semana !!! </h1>
+    </div>
+
+    <div class="row">
+      <div class="col-md-4 col-12 ">
+        <div class="card" id="principal_F4">
+          <img src="./assets/ChatGPT Image 10 jun 2025, 10_05_54 p.m..png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+              content.</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Columna derecha (8 columnas ancho en md) -->
+      <div class="col-md-8 col-12">
+        <div class="row">
+
+          <div class="col-6">
+            <div class="card">
+              <img src="./assets/fp_0.jpeg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                  card's content.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-6 ">
+            <div class="card">
+              <img src="./assets/fp_1.jpeg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                  card's content.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-6 ">
+            <div class="card">
+              <img src="./assets/fp_2.jpeg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                  card's content.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-6 ">
+            <div class="card">
+              <img src="./assets/fp_3.jpeg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                  card's content.</p>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="container"> <!-- Sustratos -->
+
+    <div class="tittle">
+      <h1>Nuestros sustratos</h1>
+    </div>
+
+    <div id="carousel" class="carousel slide" data-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <div class="row">
+            <div class="col-12 col-sm-6 col-md-4">
+              <div class="text-black text-center">
+
+                <div class="card text-center" style="width: 100%">
+                  <div class="card-body">
+                    <img src="./assets/Sus_0.jpg" class="img_Product_1" width="100%">
+                    <p class="Description">Fibra de coco X 1kg</p>
+                    <p class="Valor">$12.000</p>
+                    <p class="Disponibilidad">15 Und. Disponibles</p>
+                    <a href="#" class="btn btn-primary">Comprar</a>
+                  </div>
+                </div>
+
+              </div>
+            </div>
+            <div class="col-12 col-sm-6 col-md-4">
+              <div class="text-black text-center">
+
+                <div class="card text-center" style="width: 100%">
+                  <div class="card-body">
+                    <img src="./assets/Sus_1.jpg" class="img_Product_1" width="100%">
+                    <p class="Description">Chip de coco X 1kg</p>
+                    <p class="Valor">$15.000</p>
+                    <p class="Disponibilidad">7 Und. Disponibles</p>
+                    <a href="#" class="btn btn-primary">Comprar</a>
+                  </div>
+                </div>
+
+
+              </div>
+            </div>
+            <div class="col-12 col-sm-6 col-md-4">
+              <div class="text-black text-center">
+
+                <div class="card text-center" style="width: 100%">
+                  <div class="card-body">
+                    <img src="./assets/Sus_2.jpg" class="img_Product_1" width="100%">
+                    <p class="Description">Pomez X 1kg</p>
+                    <p class="Valor">$13.000</p>
+                    <p class="Disponibilidad">8 Und. Disponibles</p>
+                    <a href="#" class="btn btn-primary">Comprar</a>
+                  </div>
+                </div>
+
+              </div>
+            </div>
+
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="row">
+            <div class="col-12 col-sm-6 col-md-4">
+              <div class="text-black text-center">
+
+                <div class="card text-center" style="width: 100%">
+                  <div class="card-body">
+                    <img src="./assets/Sus_3.jpg" class="img_Product_1" width="100%">
+                    <p class="Description">Especial carnivora X 1kg/p>
+                    <p class="Valor">$20.000</p>
+                    <p class="Disponibilidad">21 Und. Disponibles</p>
+                    <a href="#" class="btn btn-primary">Comprar</a>
+                  </div>
+                </div>
+
+              </div>
+            </div>
+            <div class="col-12 col-sm-6 col-md-4">
+              <div class="text-black text-centerr">
+
+                <div class="card text-center" style="width: 100%">
+                  <div class="card-body">
+                    <img src="./assets/Sus_4.jpg" class="img_Product_1" width="100%">
+                    <p class="Description">Arlita X 1kg</p>
+                    <p class="Valor">$18.000</p>
+                    <p class="Disponibilidad">6 Und. Disponibles</p>
+                    <a href="#" class="btn btn-primary">Comprar</a>
+                  </div>
+                </div>
+
+              </div>
+            </div>
+            <div class="col-12 col-sm-6 col-md-4">
+              <div class="text-black text-center">
+
+                <div class="card text-center" style="width: 100%">
+                  <div class="card-body">
+                    <img src="./assets/Sus_5.jpg" class="img_Product_1" width="100%">
+                    <p class="Description">Vermiculita X 1kg</p>
+                    <p class="Valor">$19.000</p>
+                    <p class="Disponibilidad">4 Und. Disponibles</p>
+                    <a href="#" class="btn btn-primary">Comprar</a>
+                  </div>
+                </div>
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <a class="carousel-control-prev" href="#carousel" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="carousel-control-next" href="#carousel" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
+
+  </div>
+
+
+  <div class="container"> <!-- Materas -->
+
+    <div class="tittle">
+      <h1>Otros insumos</h1>
+    </div>
+
+    <div id="carousel2" class="carousel slide" data-ride="carousel2">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <div class="row">
+            <div class="col-12 col-sm-6 col-md-4">
+              <div class="text-black text-center">
+
+                <div class="card text-center" style="width: 100%">
+                  <div class="card-body">
+                    <img src="./assets/mat_0.jpg" class="img_Product_1" width="100%">
+                    <p class="Description">Matera cuadrada No 2</p>
+                    <p class="Valor">$8.000</p>
+                    <p class="Disponibilidad">29 Und. Disponibles</p>
+                    <a href="#" class="btn btn-primary">Comprar</a>
+                  </div>
+                </div>
+
+              </div>
+            </div>
+            <div class="col-12 col-sm-6 col-md-4">
+              <div class="text-black text-center">
+
+                <div class="card text-center" style="width: 100%">
+                  <div class="card-body">
+                    <img src="./assets/mat_1.jpg" class="img_Product_1" width="100%">
+                    <p class="Description">Matera cuadrada No 8</p>
+                    <p class="Valor">$2.800</p>
+                    <p class="Disponibilidad">15 Und. Disponibles</p>
+                    <a href="#" class="btn btn-primary">Comprar</a>
+                  </div>
+                </div>
+
+
+              </div>
+            </div>
+            <div class="col-12 col-sm-6 col-md-4">
+              <div class="text-black text-center">
+
+                <div class="card text-center" style="width: 100%">
+                  <div class="card-body">
+                    <img src="./assets/mat_2.jpg" class="img_Product_1" width="100%">
+                    <p class="Description">Matera cuadrada No 5</p>
+                    <p class="Valor">$4.000</p>
+                    <p class="Disponibilidad">12 Und. Disponibles</p>
+                    <a href="#" class="btn btn-primary">Comprar</a>
+                  </div>
+                </div>
+
+              </div>
+            </div>
+
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="row">
+            <div class="col-12 col-sm-6 col-md-4">
+              <div class="text-black text-center">
+
+                <div class="card text-center" style="width: 100%">
+                  <div class="card-body">
+                    <img src="./assets/mat_3.jpg" class="img_Product_1" width="100%">
+                    <p class="Description">Matera cuadrada No 7</p>
+                    <p class="Valor">5.500</p>
+                    <p class="Disponibilidad">10 Und. Disponibles</p>
+                    <a href="#" class="btn btn-primary">Comprar</a>
+                  </div>
+                </div>
+
+              </div>
+            </div>
+            <div class="col-12 col-sm-6 col-md-4">
+              <div class="text-black text-centerr">
+
+                <div class="card text-center" style="width: 100%">
+                  <div class="card-body">
+                    <img src="./assets/mat_4.jpg" class="img_Product_1" width="100%">
+                    <p class="Description">Matera cuadrada No 12</p>
+                    <p class="Valor">$1.700</p>
+                    <p class="Disponibilidad">9 Und. Disponibles</p>
+                    <a href="#" class="btn btn-primary">Comprar</a>
+                  </div>
+                </div>
+
+              </div>
+            </div>
+            <div class="col-12 col-sm-6 col-md-4">
+              <div class="text-black text-center">
+
+                <div class="card text-center" style="width: 100%">
+                  <div class="card-body">
+                    <img src="./assets/mat_5.jpg" class="img_Product_1" width="100%">
+                    <p class="Description">Matera cuadrada No 4</p>
+                    <p class="Valor">$2.000</p>
+                    <p class="Disponibilidad">3 Und. Disponibles</p>
+                    <a href="#" class="btn btn-primary">Comprar</a>
+                  </div>
+                </div>
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <a class="carousel-control-prev" href="#carousel2" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="carousel-control-next" href="#carousel2" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
+
+  </div>
+
+  <!-- Footer -->
+
+  <footer>
+    <div class="container"> <!-- Para centrar se pone en una clase container -->
+      <div class="row">
+        <div class="col-12 col-md-4">
+          <h4>Buscabas algo mas ?</h4>
+          <!--  <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Blanditiis, quo porro. Reprehenderit similique
+              cum a, iure natus corrupti nobis totam fugit tenetur repellendus veritatis laudantium aliquam eligendi
+              quod commodi ab?</p> -->
+          <ul style="list-style: none; padding: 0;">
+            <li style="display: flex; align-items: center; margin-bottom: 10px;">
+              <img src="./assets/foot_enviado.png" alt="Descripción del icono 1"
+                style="width: 33px; height: 33px; margin-right: 15px;">
+              <span>Disfruta de la calidad de nuestros envíos de forma ágil y segura en la puerta de su casa o
+                negocio</span>
+            </li>
+
+            <li style="display: flex; align-items: center; margin-bottom: 10px;">
+              <a href="./Pre_frecuentes.html" target="_self"
+                style="display: flex; align-items: center; text-decoration: none; color: inherit;">
+                <img src="./assets/foot_ayudar.png" alt="Descripción del icono 2"
+                  style="width: 33px; height: 33px; margin-right: 15px;">
+                <span>Tu satisfacción al comprar son nuestra razón de ser, por tal motivo damos respuesta a las
+                  preguntas más frecuentes</span>
+              </a>
+            </li>
+
+            <li style="display: flex; align-items: center;">
+              <img src="./assets/foot_tarjeta-de-credito.png" alt="Descripción del icono 3"
+                style="width: 33px; height: 33px; margin-right: 15px;">
+              <span>Paga con confianza desde la plataforma segura de PayU o MercadoPago. </span>
+            </li>
+          </ul>
+        </div>
+        <div class="col-12 col-md-4">
+          <h4>Horarios</h4>
+
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7953.1631603097685!2d-74.09993092374094!3d4.668439495306457!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e3f9b0aae1c2f2b%3A0x364e374c2bd861a8!2sJard%C3%ADn%20Bot%C3%A1nico%20de%20Bogot%C3%A1%20Jos%C3%A9%20Celestino%20Mutis!5e0!3m2!1ses-419!2sco!4v1749991011062!5m2!1ses-419!2sco"
+            style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+        <div class="col-12 col-md-4">
+          <h4>Suscribete</h4>
+          <div class="form-group">
+            <label for="email">Email address</label>
+            <input type="text" class="form-control" id="email" placeholder="ejemplo@correo_ejemplo.com">
+            <div class="btn btn-success w-100 mt-1">Registro</div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+
+
+  <!-- Optional JavaScript; choose one of the two! -->
+
+  <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct"
+    crossorigin="anonymous"></script>
+
+  <!-- Option 2: Separate Popper and Bootstrap JS -->
+  <!--
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.min.js" integrity="sha384-+sLIOodYLS7CIrQpBjl+C7nPvqq+FbNUBDunl/OZv93DB7Ln/533i8e/mZXLi/P+" crossorigin="anonymous"></script>
+    -->
+</body>
+
+</html>

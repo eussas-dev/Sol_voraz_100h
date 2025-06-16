@@ -1,0 +1,71 @@
+.btn.btn-primary {
+    background-color: #a47e1b;
+    border-color: #a47e1b;
+}
+
+footer h4 {
+    margin-top: 20px;
+}
+
+.micarta {
+    margin-bottom: 45px;
+}
+
+.micarta:hover {
+    border: solid 1px #a47e1b;
+    border-radius: 32px;
+    box-sizing: border-box;
+    padding: inherit; 
+    margin-bottom: 45px;
+}
+
+img.img_Product_1 {
+    border-radius: 30px 30px 0px 0px;
+    height: 300px;
+}
+
+.row.linea1 {
+    margin-top: 33px;
+}
+
+.row.linea2 {
+    margin-top: 29px;
+    background: #ffe16a4a;
+}
+
+
+p.Description {
+    font-size: 24px;
+    font-family: sans-serif;
+    text-align: center;
+    margin-bottom: 0px;
+    margin-top: 16px;
+}
+
+p.Valor {
+    font-size: 16px;
+    text-align: center;
+    margin-top: 5px;
+    color: #000000b0;
+}
+
+p.Disponibilidad {
+    font-size: 14px;
+    text-align: center;
+    margin-top: -8px;
+    margin-bottom: 22px;
+}
+
+img.img_Product.x {
+    height: 360px;
+    border-radius: 30px 30px 0px 0px;
+}
+
+img.img_Product_1:hover {
+    cursor: pointer;
+}
+
+.btn.btn-primary:hover {
+    background-color: #efd289;
+    border-color: #efd289;
+}

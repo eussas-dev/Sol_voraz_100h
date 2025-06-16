@@ -1,0 +1,29 @@
+.tittle {
+    text-align: center !important;
+    margin-top: 24px;
+    margin-bottom: 24px;
+}
+
+
+img#Pre_icon {
+    width: 35px;
+    height: 35px;
+    float: left;
+    background: #ffe16a;
+    border-radius: 50%;
+    padding: 5px;
+}
+
+img#Pre_icon:hover {
+    background: #c63d39;
+}
+
+.btn-link {
+    font-weight: 600;
+    color: #000000;
+}
+
+.btn-link:hover {
+    font-weight: 600;
+    color: #000000;
+}
