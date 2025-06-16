@@ -15,7 +15,7 @@
 </head>
 
 <body>
-  
+
   <nav class="navbar navbar-expand-lg navbar-light bg-light"> <!-- barra navegación -->
     <a class="navbar-brand" href="./Index.html">
       <img src="./assets/0_logo.png" class="Logo" style="width: 30px; height: 30px;">
@@ -57,8 +57,53 @@
       </div>
     </div>
   </nav>
- 
-  <div class="container">  <!-- Fila 1 -->
+
+  <button id="cartButton" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal"> <!-- boton carrito  -->
+    <img src="./assets/carrito-de-compras.png" alt="Carrito" class="cart-icon">
+  </button>
+
+  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true"> <!-- Modal carrito  -->
+    <div class="modal-dialog modal-xl">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h4 class="modal-title" id="exampleModalLabel">Carrito de compras</h4>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-3 col-12 ">
+                <h3>Producto</h3>
+                <img src="./assets/carr_P.webp" class="imgCarritos" width="100%">
+              </div>
+
+              <div class="col-md-3 col-12 ">
+                <h3>Precio</h3>
+                <h5 id="carritoh3">$35.000</h5>
+              </div>
+              <div class="col-md-3 col-12 ">
+                <h3>Cantidad</h3>
+                <input type="number" class="form-control" value="1" min="1" id="quantity">
+
+              </div>
+              <div class="col-md-3 col-12 ">
+                <h3>Subotal</h3>
+                <h5 style="font-weight: 700;font-size: 30px;" id="carritoh3">$35.000</h5>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-primary">Comprar</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="container"> <!-- Fila 1 -->
     <div class="row linea1">
       <div id="image" class="col-12 col-sm-12 col-md-6">
         <img src="./assets/c.jpg" width="100%">
@@ -80,8 +125,8 @@
       <div class="col-6 col-sm-6 col-md-4 micarta">
         <img src="./assets/np_0.webp" class="img_Product_1" width="100%" data-toggle="modal"
           data-target="#staticBackdrop">
-        <p class="Description">Nephentes Linda</p>
-        <p class="Valor">$15.000</p>
+        <p class="Description">Nephentes Louisa Green</p>
+        <p class="Valor">$65.000</p>
         <p class="Disponibilidad">15 Unidades Disponibles</p>
         <a href="https://wa.me/+573211234666?text=Hola, estoy interesado en tus plantas" target="_blank">
           <div class="btn btn-primary w-100">Comprar</div>
@@ -89,36 +134,51 @@
         <!-- Modal -->
         <div class="modal fade" id="staticBackdrop" data-backdrop="static" data-keyboard="false" tabindex="-1"
           aria-labelledby="staticBackdropLabel" aria-hidden="true">
-          <div class="modal-dialog">
+          <div class="modal-dialog modal-xl">
             <div class="modal-content">
               <div class="modal-header">
-                <h5 class="modal-title" id="staticBackdropLabel">Modal title</h5>
                 <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                   <span aria-hidden="true">&times;</span>
                 </button>
               </div>
               <div class="modal-body">
-                asdasd
-                asdasdasd
-                asdasdasd
-                asdasd
-                asdasd
-              </div>
-              <div class="modal-footer">
-                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                <button type="button" class="btn btn-primary">Understood</button>
+                <div class="container">
+                  <div class="row">
+                    <div class="col-md-6 col-12 ">
+                      <img src="./assets/np_0.webp" class="img_modal_np" width="100%">
+                    </div>
+
+                    <div class="col-md-6 col-12 ">
+                      <p id="tittleMod">Nephentes Louisa Green</p>
+                      <p id="refMod">Referencia: 23120</p>
+                      <p id="priceMod">Precio: $65.000</p>
+                      <p id="descMod">Es un cruce entre S. Leucophylla x S. Rubra, tiene cántaros rojos, verdes y
+                        blancos brillantes con areolas dominantes (ventanas). Las trampas son verticales y de mediana
+                        altura. Son verdes en la base, pero las venas rojas anchas dominan los tubos, lo que le da a la
+                        trampa completa una apariencia emocionante y de colores brillantes. Las capuchas son anchas y
+                        rizadas y el labio es grueso y de color rojo intenso. Requiere luz brillante en interiores, ó de
+                        pleno sol a sol parcial en exteriores y crece bien en jardines pantanosos, invernaderos e
+                        interiores.</p>
+                      <p id="presenMod">Presentación: Tamaño matera P10 (10 cm x 10 cm). </p>
+                      <a href="https://wa.me/+573211234666?text=Hola, estoy interesado en tus plantas" target="_blank">
+                        <button type="button" class="btn btn-primary">Comprar</button>
+                      </a>
+                      <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+                    </div>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
         </div>
-  
+
         <!-- asd -->
-  
+
       </div>
       <div class="col-6 col-sm-6 col-md-4  micarta">
         <img src="./assets/np_1.webp" class="img_Product_1" width="100%">
-        <p class="Description">Nephentes Linda</p>
-        <p class="Valor">$15.000</p>
+        <p class="Description">Nephentes Raflesh</p>
+        <p class="Valor">$45.000</p>
         <p class="Disponibilidad">15 Unidades Disponibles</p>
         <a href="https://wa.me/+573211234666?text=Hola, estoy interesado en tus plantas" target="_blank">
           <div class="btn btn-primary w-100">Comprar</div>
@@ -126,8 +186,8 @@
       </div>
       <div class="col-6 col-sm-6 col-md-4 micarta">
         <img src="./assets/np_2.webp" class="img_Product_1" width="100%">
-        <p class="Description">Nephentes Linda</p>
-        <p class="Valor">$15.000</p>
+        <p class="Description">Nephentes typica</p>
+        <p class="Valor">$25.000</p>
         <p class="Disponibilidad">15 Unidades Disponibles</p>
         <a href="https://wa.me/+573211234666?text=Hola, estoy interesado en tus plantas" target="_blank">
           <div class="btn btn-primary w-100">Comprar</div>
@@ -136,7 +196,7 @@
       <div class="col-6 col-sm-6 col-md-4  micarta">
         <img src="./assets/np_3.webp" class="img_Product_1" width="100%">
         <p class="Description">Nephentes Linda</p>
-        <p class="Valor">$15.000</p>
+        <p class="Valor">$13.000</p>
         <p class="Disponibilidad">15 Unidades Disponibles</p>
         <a href="https://wa.me/+573211234666?text=Hola, estoy interesado en tus plantas" target="_blank">
           <div class="btn btn-primary w-100">Comprar</div>
@@ -144,8 +204,8 @@
       </div>
       <div class="col-6 col-sm-6 col-md-4  micarta">
         <img src="./assets/np_4.webp" class="img_Product_1" width="100%">
-        <p class="Description">Nephentes Linda</p>
-        <p class="Valor">$15.000</p>
+        <p class="Description">Nephentes Bloody M</p>
+        <p class="Valor">$22.000</p>
         <p class="Disponibilidad">15 Unidades Disponibles</p>
         <a href="https://wa.me/+573211234666?text=Hola, estoy interesado en tus plantas" target="_blank">
           <div class="btn btn-primary w-100">Comprar</div>
@@ -153,8 +213,8 @@
       </div>
       <div class="col-6 col-sm-6 col-md-4  micarta">
         <img src="./assets/np_5.webp" class="img_Product_1" width="100%">
-        <p class="Description">Nephentes Linda</p>
-        <p class="Valor">$15.000</p>
+        <p class="Description">Nephentes Maxima</p>
+        <p class="Valor">$150.000</p>
         <p class="Disponibilidad">15 Unidades Disponibles</p>
         <a href="https://wa.me/+573211234666?text=Hola, estoy interesado en tus plantas" target="_blank">
           <div class="btn btn-primary w-100">Comprar</div>

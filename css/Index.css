@@ -109,9 +109,28 @@ div#principal_F4 {
     }
   }
 
+  .modal-content {
+    text-align: center;
+}
 
+input#quantity {
+    text-align: center;
+    position: center;
+    margin-top: 46px;
+}
 
+.modal-content h5 {
+    margin-top: 50px;
+}
 
+p.pvarios {
+    text-align: center;
+    font-size: 28px;
+    font-weight: 500;
+    border-style: solid;
+    border-color: #0000005c;
+    background-color: #ffe16a;
+}
 
 
 
